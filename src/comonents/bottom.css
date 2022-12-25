@@ -1,0 +1,55 @@
+.inside{
+    margin-top:'-20%';
+    display:'flex';
+    flex-direction:'row';
+    flex-wrap:'wrap';
+    gap:5%;
+    font-size: smaller;
+}
+
+.phla{
+    display: flex;
+    flex-direction:row;
+    height: 37px;
+}
+
+.dusra{
+    display: flex;
+    flex-direction:row;
+    height: 37px;
+}
+
+.tisra{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height: 37px;
+    margin-top: -25%;
+}
+
+.archl{
+    border-radius: 60px 0 0 60px;
+    background-color: black;
+}
+
+.archr{
+    border-radius: 0 50px 50px 0;
+    background-color: black;
+}
+
+.arch1{
+    padding:2%;
+    color:white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rr{
+    border-radius: 0px 40px 40px 0px;
+}
+
+.ll{
+    border-radius: 40px 0 0 40px;
+}

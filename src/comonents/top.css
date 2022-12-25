@@ -1,0 +1,152 @@
+.top{
+    min-height: 180px;
+    background-color: white;
+    padding: 2%;
+    display:flex;
+    flex-direction: row;
+    gap:25%;
+    flex-wrap: wrap;
+    margin-top:-2%
+}
+
+.top-left{
+    row-gap:50px;
+}
+
+.bkmn{
+    size:250%;
+}
+
+.tl1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+}
+
+.tla{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8%;
+    margin-top: -0%;
+}
+
+
+
+.tl2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    gap:5%;
+    font-size: smaller;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.tl2-ch{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.left{
+    background-color: lightblue;
+    border-radius: 40px 0px 0px 40px;
+    width: '100px';
+    color:lightblue;
+}
+
+.right{
+    background-color: lightblue;
+    border-radius: 0px 40px 40px 0px;
+    width: '100px';
+    color:lightblue;
+}
+
+.arch{
+    color:white;
+    background-color: black;
+    padding:2%;
+    text-align: center;
+    
+}
+
+.free{
+    background-color: lightgreen;
+    padding:2%;
+}
+
+.long{
+    background-color: lightblue;
+    padding:2%;
+    width:75px;
+}
+
+.top-right{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-right:0% ;
+    row-gap:20px;  
+    column-gap: 10%; 
+    font-weight: bold;
+}
+
+.tra{
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    justify-content: right;
+}
+
+.status{
+    padding:4%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: right;
+    width:100%;
+}
+
+.apply{
+    display:'flex';
+    flex-direction:'row';
+    height:'100%';
+    font-weight:'bold';
+    text-align:'center';
+    align-items:'center';
+    justify-content:'center'
+}
+
+.lal,.rar{
+    color:'orangered';background-color:'orangered';height:'55%'
+}
+
+.mam{
+    color:'white';background-color:'orangered';height:'55%'
+}
+
+
+.apply:hover {
+    color: black;
+    background-color: lightpink;
+}
+
+
+@media(max-width:460px){
+    .status{
+        width:80%;
+    }
+    .tl2-ch{
+        margin-top: 1px;
+    }
+}
+
+

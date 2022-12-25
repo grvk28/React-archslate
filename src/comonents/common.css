@@ -1,0 +1,85 @@
+.full{
+    background-color: rgb(227, 233, 235);
+    min-height: 1000px;
+}
+
+.Navbody{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    min-height: 0px;
+    gap:28%;
+    padding-top: -10%;     
+    flex-wrap: wrap;         
+}
+
+.Nav-left{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 1%;
+    gap:10%;
+    padding-top: 0%;
+    
+}
+
+.left-img{
+    height: 50%;
+    width: 70%;
+}
+
+.arc{
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.Nav-right{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap:5%;
+    row-gap: 0%;
+    flex-wrap: wrap;  
+    justify-items: flex-end;
+    text-align: left;
+    width:50%;
+}
+
+.NavEl{
+    display: flex;
+    flex-direction: column;
+    font-size: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+.NavEl>p{
+    margin-top: 5%;
+}
+
+
+
+.pic{
+    height: 20%;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.body{
+    padding-left: 14%;
+    padding-right: 14%;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    row-gap:28px;
+}
+
+@media(max-width:460px){
+    .Nav-right{
+        width:100%;
+        justify-content: center;
+    }
+}
