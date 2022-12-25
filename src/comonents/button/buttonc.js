@@ -9,7 +9,7 @@ function ButtonA(props){
     //g.style.color='green'
     console.log(g)
     return(
-        <div style={{display:'flex',flexDirection:'row',height:'100%',fontWeight:'bold',textAlign:'center',alignItems:'center',justifyContent:'center',width:'80%'}}>
+        <div style={{display:'flex',flexDirection:'row',height:'100%',fontWeight:'bold',textAlign:'center',alignItems:'center',justifyContent:'center',width:'80%',marginTop:'-30%',marginLeft:'9%'}}>
             <div style={h} className='ll'>.....</div>
             <div style={g} className='mm'>
                 <div style={{marginTop:'8%',display:'flex',flexDirection:'row',marginLeft:'0%'}}>
