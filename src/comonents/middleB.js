@@ -4,6 +4,7 @@ import Button from "./button";
 import ButtonC from "./button/buttonc";
 import aa from '../icons/star.png'
 import ab from '../icons/share.jpg'
+import ac from '../icons/man.png'
 
 function MiddleB(){
     let p={name:'Message',style:{color:'white',backgroundColor:'black',height:'20%'},style1:{color:'black',backgroundColor:'black',height:'20%'}}
@@ -91,11 +92,17 @@ function MiddleB(){
             </div>
             <div className="bot">
                 <div className="botA">
-                    <div>Job Poster</div>
+                    <div style={{fontWeight:'bold'}}>Job Poster</div>
                 </div>
-                <div>
-                    <div>John Carlos</div>
-                    <div>Project Manager</div>
+                <div className="details" style={{display:'flex',flexDirection:'row',marginTop:'8%'}}>
+                    <div>
+                        <img src={ac} />
+                    </div>
+                    <div style={{marginLeft:'7%',marginTop:'3%'}}>
+                        <div style={{fontSize:'120%',fontWeight:'lighter',  display:'flex', flexDirection:'row',gap:'2%'}}><div>John</div><div>Carlos</div></div>
+                        <div style={{fontWeight:'bold',fontSize:'75%',  display:'flex', flexDirection:'row',gap:'2%'}}><div>Project</div> <div>Manager</div></div>
+                    </div>
+
                 </div>
                 <ButtonC {...p}></ButtonC>
             </div>
